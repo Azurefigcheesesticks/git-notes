@@ -1,0 +1,29 @@
+##Private Token Value
+Clone a private repo
+git clone https://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@github.com/Azurefigcheesesticks/my-private-repo.git 
+git clone https://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@github.com/Azurefigcheesesticks/aws-vpc-peering-script.git
+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
+## to configure git
+git config user.name
+git config -global  user.name "Azurefigcheesesticks"
+ 
+git config user.email
+git config --global user.email "KennedyMenezes+git@gmail.com"
+
+##Day 2
+add files to 'working directory' >> move files to staging area >> move files to local repo (so .git can track)>> move to Github
+## to add files to local repo
+git add . ; git commit -m ""; git status
+
+# check if remote branches are added 
+git remote -v
+ ## add github hosted repo to local
+git remote add origin https://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@github.com/Azurefigcheesesticks/aws-vpc-peering-script.git
+
+#push local repo to github hosted repo
+git push -u origin master
+
+## see what changes have been made on files from remote repo to local repo
+git checkout origin/master (You have to run 'git fetch' first in order to run this command OR it will not work)
+## Sync files from remote repo to local repo 
+git pull
