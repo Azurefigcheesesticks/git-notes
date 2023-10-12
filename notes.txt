@@ -17,6 +17,8 @@ git add . ; git commit -m ""; git status
 
 # check if remote branches are added 
 git remote -v
+## to remove remote origin
+git remote remove origin
  ## add github hosted repo to local
 git remote add origin https://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@github.com/Azurefigcheesesticks/aws-vpc-peering-script.git
 
